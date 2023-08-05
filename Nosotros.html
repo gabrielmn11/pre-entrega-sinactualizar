@@ -1,36 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="estilo-css/style.css">
+    <title>Sushi market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo-css/style.css">
 </head>
-<body>
-    <header>
-        <img class="logo" src="img/descarga-removebg-preview.png" alt="logo de sushi market">
-<nav>
-<ul>
-    <li> <a href="index.html">Inicio</a></li>
-<li><a href="./Navegacion/Nosotros.html">Nosotros</a></li>
-<li><a href="ubicaciones.html">Ubicaciones</a></li>
-<li><a href="menu.html">Menu</a></li>
-<li><a href="contacto.html">Contacto</a></li>
- 
-</ul>
-</nav>
 
-</header>
-<div class="contenedor">
+<body class="index">
+    <header class="navbar navbar-expand-lg navbar bg-black ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/descarga-removebg-preview.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fuentes">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="Nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="ubicaciones.html">Ubicaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="historia">
+        <div class="card">
+            <div class="card-body">
+                <h1>Nosotros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, itaque nihil. Voluptates, eos
+                    sapiente exercitationem assumenda deleniti officiis. Non facere magnam aspernatur id ex assumenda
+                    dolorem asperiores adipisci vel dolores in est ea veritatis debitis rem quae, unde officiis sed
+                    autem numquam reiciendis reprehenderit! Eos, ipsum. Unde fuga cum consectetur quas velit, a culpa id
+                    facere porro reiciendis eveniet dicta voluptatum hic beatae explicabo officiis impedit ipsam
+                    possimus labore esse quasi blanditiis soluta. Nisi nesciunt rem soluta, maxime expedita perferendis.
+                    Eos odio sapiente, est ipsa exercitationem asperiores voluptates tempore excepturi minus voluptatum
+                    ducimus, omnis adipisci debitis maxime! Architecto, impedit totam.</p>
+            </div>
+        </div>
 
-<h1>Nosotros</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, itaque nihil. Voluptates, eos sapiente exercitationem assumenda deleniti officiis. Non facere magnam aspernatur id ex assumenda dolorem asperiores adipisci vel dolores in est ea veritatis debitis rem quae, unde officiis sed autem numquam reiciendis reprehenderit! Eos, ipsum. Unde fuga cum consectetur quas velit, a culpa id facere porro reiciendis eveniet dicta voluptatum hic beatae explicabo officiis impedit ipsam possimus labore esse quasi blanditiis soluta. Nisi nesciunt rem soluta, maxime expedita perferendis. Eos odio sapiente, est ipsa exercitationem asperiores voluptates tempore excepturi minus voluptatum ducimus, omnis adipisci debitis maxime! Architecto, impedit totam.</p>
-<img class="baos" src="img/sushi-market-baos-de-pollo-100x100.jpg" alt="imagen de comida">
-</div>
 
-<div class="vision">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, rerum quaerat? Facilis hic recusandae ipsum, dolores reiciendis maxime blanditiis consequatur molestiae aliquam fugiat repellendus fugit officia nihil est consequuntur maiores.</p>
-    <img class="tempurizado" src="img/sushi-market-sm-tempurizado-100x100.jpg" alt="tempurizado">
-</div>
+    </div>
+
+
+        <div class="card mb-3 mision bg-black vision" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./img/sushi-market-sm-tempurizado-100x100.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Vision y Mision</h5>
+                        <p class="card-text text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem ad excepturi,
+                            dolorum nobis id sed soluta nemo quos, doloribus eum sint ducimus quis necessitatibus fuga
+                            consequuntur natus vero delectus et?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
