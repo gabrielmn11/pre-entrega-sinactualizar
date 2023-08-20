@@ -104,50 +104,13 @@
  height: 200px;
 
     }
-    .grid-item1{
-        grid-area: local1;
-        width: 15%;
-        font-size: 1rem;
-    }
-    .local1{
-        grid-area: mapa1;
-       
-    }
-    .grid-item2{
-        grid-area: local2;
-        width:15%;
-font-size: 1rem;
-    }
-    .local2{
-        grid-area: mapa2;
-        
-    }.grid-item3{
-        grid-area: local3;
-       width:15%;
-       font-size: 1rem;
-    }
-    .local3{
-        grid-area: mapa3;
-       
-    }
-    .ciudad{
-        grid-area: ciudad;
-        .titulo1{
-            grid-area: titulo1;}
-    }
     .grid-container{
         display: grid;
-        grid-template-areas: 
-        "ciudad ciudad"
-        "local1 mapa1"
-        "local2 mapa2"
-        "local3 mapa3"
+        grid-template-columns: auto;
+        grid-template-rows: auto;
     }
 
-    @media (max-witdh: 400px){
-        iframe{
-            display: none;
-        }
-    }
         
-    
+  h3{
+    @include tituloLocales
+  }
