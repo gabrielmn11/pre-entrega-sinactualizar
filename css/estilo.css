@@ -1,20 +1,23 @@
-* {
-  margin: 0;
-}
-
-.logo {
-  width: 5rem;
-  height: 5rem;
-  cursor: pointer;
-  background-color: black;
-}
-
 header {
   display: flex;
   justify-content: start;
   align-items: center;
   border: 2.5px red solid;
   background-color: white;
+}
+header .logo {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  background: linear-gradient(to right, black, gray);
+}
+header li a:hover {
+  background-color: red;
+  color: antiquewhite;
+}
+
+* {
+  margin: 0;
 }
 
 .fuentes {
@@ -23,10 +26,6 @@ header {
   padding: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
-}
-.fuentes li a:hover {
-  background-color: red;
-  color: antiquewhite;
 }
 
 a {
@@ -54,17 +53,11 @@ h1 {
   padding: 10px 10px;
 }
 
-.Locales {
+.locales1 {
   color: white;
   border: 5px solid red;
   width: 1200px;
-  height: 1400px;
-}
-
-.local2 {
-  width: 150px;
-  height: 150px;
-  margin-left: 900px;
+  height: 1700px;
 }
 
 .menus {
@@ -92,7 +85,7 @@ p {
 }
 
 .video {
-  padding: 30px;
+  padding: 40px;
 }
 
 .carta {
@@ -114,6 +107,60 @@ p {
 
 .vision {
   border: 2px white solid;
+  background: radial-gradient(circular, red, black);
+}
+
+.locales {
+  width: 200px;
+  height: 200px;
+}
+
+.grid-item1 {
+  grid-area: local1;
+  width: 15%;
+  font-size: 1rem;
+}
+
+.local1 {
+  grid-area: mapa1;
+}
+
+.grid-item2 {
+  grid-area: local2;
+  width: 15%;
+  font-size: 1rem;
+}
+
+.local2 {
+  grid-area: mapa2;
+}
+
+.grid-item3 {
+  grid-area: local3;
+  width: 15%;
+  font-size: 1rem;
+}
+
+.local3 {
+  grid-area: mapa3;
+}
+
+.ciudad {
+  grid-area: ciudad;
+}
+.ciudad .titulo1 {
+  grid-area: titulo1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "ciudad ciudad" "local1 mapa1" "local2 mapa2" "local3 mapa3";
+}
+
+@media (max-witdh: 400px) {
+  iframe {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

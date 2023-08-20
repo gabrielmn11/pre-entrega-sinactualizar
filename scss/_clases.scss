@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+  }
+    
+    
+  
+  
+    .fuentes {
+      font-size: 1.5rem;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 1.5rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    
+      
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      color: red;
+      display: flex;
+      justify-content: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .contenedor {
+      width: 800px;
+      height: 200px;
+      background-color: white;
+      margin: 100px;
+      border: 3px blue solid;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .historia {
+      padding: 10px 10px;
+    }
+    
+    .locales1 {
+      color: white;
+      border: 5px solid red;
+      width: 1200px;
+      height: 1700px;
+    }
+    
+    
+    
+    .menus {
+      display: grid -ms-inline-grid;
+    }
+    
+    p {
+      @include parrafos
+    }
+    
+    .contacto {
+      width: 1000px;
+      height: 1000px;
+      border: 5px solid red;
+      color: wheat;
+    }
+    
+    .index {
+      background-color: black
+    }
+    
+    .carta {
+      border-radius: 1rem red solid;
+    }
+    
+    .video {
+      padding: 40px;
+    }
+    
+    .carta {
+      padding: 100px;
+      color: aliceblue;
+      background-color: black;
+    border: 2px red solid;
+      
+    }
+    
+    .productos {
+      padding: 10px 10px;
+      margin-bottom: 10px;
+    }
+    
+    .mision {
+      padding: 10px 10px;
+      margin-top: 20px;
+    }
+    
+    .vision {
+      border: 2px white solid;
+      background: $gradientBack;
+    }
+    
+    .locales{
+ width: 200px;
+ height: 200px;
+
+    }
+    .grid-item1{
+        grid-area: local1;
+        width: 15%;
+        font-size: 1rem;
+    }
+    .local1{
+        grid-area: mapa1;
+       
+    }
+    .grid-item2{
+        grid-area: local2;
+        width:15%;
+font-size: 1rem;
+    }
+    .local2{
+        grid-area: mapa2;
+        
+    }.grid-item3{
+        grid-area: local3;
+       width:15%;
+       font-size: 1rem;
+    }
+    .local3{
+        grid-area: mapa3;
+       
+    }
+    .ciudad{
+        grid-area: ciudad;
+        .titulo1{
+            grid-area: titulo1;}
+    }
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        "ciudad ciudad"
+        "local1 mapa1"
+        "local2 mapa2"
+        "local3 mapa3"
+    }
+
+    @media (max-witdh: 400px){
+        iframe{
+            display: none;
+        }
+    }
+        
+    
