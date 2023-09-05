@@ -61,7 +61,8 @@ h1 {
 }
 
 .menus {
-  display: grid -ms-inline-grid;
+  margin: 50px 50px;
+  padding: 10px 10px;
 }
 
 p {
@@ -83,6 +84,12 @@ p {
 
 .carta {
   border-radius: 1rem red solid;
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .video {
@@ -97,8 +104,8 @@ p {
 }
 
 .productos {
-  padding: 10px 10px;
-  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .mision {
@@ -116,14 +123,28 @@ p {
   height: 200px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+.carta2 {
+  margin-top: 1rem;
 }
 
 h3 {
   background: linear-gradient(white, red);
+}
+
+.footer {
+  background-color: black;
+}
+
+.caja2 {
+  background: linear-gradient(gray, black);
+}
+
+h4 {
+  background: linear-gradient(gray, black);
+  color: white;
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */
